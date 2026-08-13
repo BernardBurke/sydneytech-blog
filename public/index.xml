@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Sydney Tech Blog</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Sydney Tech Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 13 Aug 2026 10:51:04 +1000</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2025 08 13 First Post</title>
+      <link>http://localhost:1313/posts/2025-08-13-first-post/</link>
+      <pubDate>Thu, 13 Aug 2026 10:51:04 +1000</pubDate>
+      <guid>http://localhost:1313/posts/2025-08-13-first-post/</guid>
+      <description>&lt;p&gt;This is my first test post on the new Hugo + Cloudflare Workers setup!&lt;/p&gt;
+&lt;h2 id=&#34;testing-media-embeds&#34;&gt;Testing Media Embeds&lt;/h2&gt;
+&lt;p&gt;I&amp;rsquo;ll add a video clip later when we connect Jellyfin.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

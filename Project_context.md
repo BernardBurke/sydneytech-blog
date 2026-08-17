@@ -16,6 +16,7 @@
 ```toml
 [params.media]
   r2BaseUrl = "[https://media.sydneytech.org](https://media.sydneytech.org)"
+```
 
 # R2 Bucket CORS Policy
 Configured in Cloudflare R2 Settings to allow browser-based media streaming from live sites, preview environments, and local testing:

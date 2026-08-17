@@ -1,0 +1,14 @@
+{{- $src := .Get "src" | default (.Get 0) -}}
+{{- $poster := .Get "poster" -}}
+{{- $baseUrl := site.Params.media.r2BaseUrl -}}
+
+<div class="media-container responsive-video-wrap">
+  <video 
+    controls 
+    playsinline
+    preload="metadata"
+    {{ with $poster }}poster="{{ $baseUrl }}/{{ . }}"{{ end }}>
+    <source src="{{ $baseUrl }}/{{ $src }}" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</div>

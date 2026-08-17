@@ -7,3 +7,7 @@ theme = 'PaperMod'
   ShowReadingTime = true
   ShowPostNavLinks = true
   ShowBreadCrumbs = true
+
+[params.media]
+  # Assuming you attach the custom domain 'media.sydneytech.org' to your R2 bucket
+  r2BaseUrl = "https://media.sydneytech.org"

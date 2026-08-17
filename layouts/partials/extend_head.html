@@ -1,0 +1,2 @@
+{{ $mediaCss := resources.Get "css/media-embeds.css" | minify | fingerprint }}
+<link rel="stylesheet" href="{{ $mediaCss.RelPermalink }}" integrity="{{ $mediaCss.Data.Integrity }}">

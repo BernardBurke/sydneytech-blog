@@ -6,4 +6,4 @@ draft: false
 
 Testing the responsive R2 video embed:
 
-{{< r2-video src="test/wiley.mp4" >}}
+{{< r2video src="test/wiley.mp4" >}}
